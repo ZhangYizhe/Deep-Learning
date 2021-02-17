@@ -8,3 +8,7 @@ This project uses the dataset from IDMB of Keras. Each review seperated to array
 ### Classifying Newswires
 
 According to type of news content to classify. Divided into 46 types.
+
+### Predicting House Prices
+
+Utilized limited amount of data to predict future house prices will get a giant deviation result.
