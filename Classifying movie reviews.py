@@ -30,9 +30,6 @@ model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accurac
 # results = model.evaluate(x_test, y_test)
 
 
-
-model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
-
 x_val = x_train[:10000]
 partial_x_train = x_train[10000:]
 
