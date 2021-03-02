@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253d8987-ec03-4a6b-a131-2237cdbfe584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +95,7 @@
       <updated>1614670448346</updated>
       <workItem from="1614670451506" duration="180000" />
       <workItem from="1614670649729" duration="4778000" />
+      <workItem from="1614693734083" duration="2517000" />
     </task>
     <task id="LOCAL-00001" summary="Visualizing intermediate activations">
       <created>1614672039638</created>
@@ -126,6 +127,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Visualizing intermediate activations" />
@@ -134,6 +136,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_intermediate_activations.coverage" NAME="Visualizing intermediate activations Coverage Results" MODIFIED="1614673180513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614675945214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614696007652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
   </component>
 </project>

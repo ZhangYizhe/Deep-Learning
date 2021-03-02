@@ -1,7 +1,9 @@
 from keras.applications import VGG16
 from keras import backend as K
-import tensorflow as tf
 import numpy as np
+
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
 
 model = VGG16(weights='imagenet', include_top=False)
 
@@ -37,4 +39,4 @@ def generate_pattern(layer_name, filter_index, size=150):
 
 import matplotlib.pyplot as plt
 plt.imshow(generate_pattern('block3_conv1', 0))
-
+plt.show()
