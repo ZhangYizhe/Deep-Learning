@@ -36,7 +36,31 @@ def generate_pattern(layer_name, filter_index, size=150):
 
     img = input_img_data[0]
     return deprocess_image(img)
-
+'''
 import matplotlib.pyplot as plt
 plt.imshow(generate_pattern('block3_conv1', 0))
 plt.show()
+'''
+
+def generate_patterns():
+    import matplotlib.pyplot as plt
+
+    layer_name = 'block4_conv1'
+    size = 64
+    margin = 5
+    results = np.zeros((8 * size + 7 * margin, 8 * size + 7 * margin, 3))
+    for i in range(8):
+        for j in range(8):
+            filter_img = generate_pattern(layer_name, i + (j * 8), size=size)
+            horizontal_start = i * size + i * margin
+            horizontal_end = horizontal_start + size
+            vertical_start = j * size + j * margin
+            vertical_end = vertical_start + size
+            results[horizontal_start: horizontal_end,
+                vertical_start: vertical_end, :] = filter_img
+
+    plt.figure(figsize=(20, 20))
+    plt.imshow((results * 255).astype(np.uint8))
+    plt.show()
+
+generate_patterns()

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253d8987-ec03-4a6b-a131-2237cdbfe584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dogs-versus-cats/Visualizing heatmaps of class activation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dogs-versus-cats/creative_commons_elephant.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deep-Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep-Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" afterDir="false" />
     </list>
@@ -35,7 +38,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Visualizing convnet filters">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dogs-versus-cats" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Visualizing heatmaps of class activation">
     <configuration name="Visualizing convnet filters" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Deep-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,6 +58,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dogs-versus-cats/Visualizing convnet filters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Visualizing heatmaps of class activation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Deep-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dogs-versus-cats" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dogs-versus-cats/Visualizing heatmaps of class activation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,9 +110,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Deep-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Visualizing intermediate activations" />
       <item itemvalue="Python.Visualizing convnet filters" />
+      <item itemvalue="Python.Visualizing heatmaps of class activation" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +148,11 @@
       <updated>1614670448346</updated>
       <workItem from="1614670451506" duration="180000" />
       <workItem from="1614670649729" duration="4778000" />
-      <workItem from="1614693734083" duration="2517000" />
+      <workItem from="1614693734083" duration="2591000" />
+      <workItem from="1614697042442" duration="196000" />
+      <workItem from="1614757149812" duration="363000" />
+      <workItem from="1614757741001" duration="1424000" />
+      <workItem from="1614759570247" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="Visualizing intermediate activations">
       <created>1614672039638</created>
@@ -135,7 +192,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="change dict structure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_heatmaps_of_class_activation.coverage" NAME="Visualizing heatmaps of class activation Coverage Results" MODIFIED="1614760322182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_intermediate_activations.coverage" NAME="Visualizing intermediate activations Coverage Results" MODIFIED="1614673180513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614696007652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614759483729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
   </component>
 </project>
