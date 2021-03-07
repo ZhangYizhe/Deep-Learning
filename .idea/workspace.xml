@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253d8987-ec03-4a6b-a131-2237cdbfe584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RNN/Numpy implementation of a simple RNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RNN/SimpleRNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature-forecasting/Temperature-forecasting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature-forecasting/jena_climate_2009_2016.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassicDeepLearning/Classifying movie reviews 4.4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temperature-forecasting/Temperature-forecasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temperature-forecasting/Temperature-forecasting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -226,6 +221,7 @@
       <workItem from="1614757741001" duration="1424000" />
       <workItem from="1614759570247" duration="970000" />
       <workItem from="1614928921336" duration="3588000" />
+      <workItem from="1615100403169" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="Visualizing intermediate activations">
       <created>1614672039638</created>
@@ -268,7 +264,7 @@
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_heatmaps_of_class_activation.coverage" NAME="Visualizing heatmaps of class activation Coverage Results" MODIFIED="1614760322182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_intermediate_activations.coverage" NAME="Visualizing intermediate activations Coverage Results" MODIFIED="1614673180513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
     <SUITE FILE_PATH="coverage/Deep_Learning$SimpleRNN.coverage" NAME="SimpleRNN Coverage Results" MODIFIED="1614932080529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$Temperature_forecasting.coverage" NAME="Temperature-forecasting Coverage Results" MODIFIED="1614937812898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Temperature-forecasting" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$Temperature_forecasting.coverage" NAME="Temperature-forecasting Coverage Results" MODIFIED="1615107990435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Temperature-forecasting" />
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614759483729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
   </component>
 </project>
