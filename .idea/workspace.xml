@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253d8987-ec03-4a6b-a131-2237cdbfe584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1D convnet/Conv1D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimplePractice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorBoard/Text-classification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
       <recent name="$PROJECT_DIR$/dogs-versus-cats" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Conv1D">
+  <component name="RunManager" selected="Python.Text-classification">
     <configuration name="Conv1D" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Deep-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,6 +152,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Text-classification" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Deep-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorBoard" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorBoard/Text-classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Visualizing convnet filters" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Deep-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +271,7 @@
       <item itemvalue="Python.Temperature-forecasting" />
       <item itemvalue="Python.SimplePractice" />
       <item itemvalue="Python.Conv1D" />
+      <item itemvalue="Python.Text-classification" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -270,6 +292,8 @@
       <workItem from="1614928921336" duration="3588000" />
       <workItem from="1615100403169" duration="4772000" />
       <workItem from="1615185405228" duration="2477000" />
+      <workItem from="1615348548860" duration="10000" />
+      <workItem from="1615358242440" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="Visualizing intermediate activations">
       <created>1614672039638</created>
@@ -314,7 +338,8 @@
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_intermediate_activations.coverage" NAME="Visualizing intermediate activations Coverage Results" MODIFIED="1614673180513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
     <SUITE FILE_PATH="coverage/Deep_Learning$SimpleRNN.coverage" NAME="SimpleRNN Coverage Results" MODIFIED="1614932080529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
     <SUITE FILE_PATH="coverage/Deep_Learning$Temperature_forecasting.coverage" NAME="Temperature-forecasting Coverage Results" MODIFIED="1615107990435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Temperature-forecasting" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$Conv1D.coverage" NAME="Conv1D Coverage Results" MODIFIED="1615190547510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1D convnet" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$Conv1D.coverage" NAME="Conv1D Coverage Results" MODIFIED="1615358846729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1D convnet" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$Text_classification.coverage" NAME="Text-classification Coverage Results" MODIFIED="1615359733529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorBoard" />
     <SUITE FILE_PATH="coverage/Deep_Learning$Visualizing_convnet_filters.coverage" NAME="Visualizing convnet filters Coverage Results" MODIFIED="1614759483729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dogs-versus-cats" />
   </component>
 </project>
